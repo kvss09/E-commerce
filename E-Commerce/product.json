@@ -1,0 +1,50 @@
+    [
+        {
+            "name" : "Premium Leather Bag",
+            "description" : "Handcrafted Leather Bag with mutliple comaprtments and adjustable strap. Ideal for daily use.",
+            "price": 129.99,
+            "image":"https://via.placeholder.com/250x280?text=Leather bag"
+        },
+        {
+            "name" : "Smart Watch Series 5",
+            "description" : "Advaced smart watch with gps, heart rate monitoring and waterproof design.",
+            "price": 199.99,
+            "image":"https://via.placeholder.com/250x280?text=Series 5"
+        },
+        {
+            "name" : "Wireless Noise Cancellation Headphones",
+            "description" : "High-fidelity wireless headphones with active noise cancellation and up to 30 hours of battery life.   ",
+            "price": 129.99,
+            "image":"https://via.placeholder.com/250x280?text=Headphones"
+        },
+        {
+            "name" : "Designer UV Sunglasses",
+            "description" : "Fashionable sunglasses with UV protection and scratch-resistant lenses. Available in various styles.",
+            "price": 79.99,
+            "image":"https://via.placeholder.com/250x280?text=Glasses"
+        },
+        {
+            "name" : "Gourmet Coffee Gift Set",
+            "description" : "A curated selection of gourmet coffee beans from around the world. Perfect gift for coffee lovers.",
+            "price": 49.99,
+            "image":"https://via.placeholder.com/250x280?text=Gift Set"
+        },
+        {
+            "name" : "Fitness Tracker Bracelet",
+            "description" : "Waterproof fitness tracker with heart rate monitor, sleep tracking, and smartphone notifications.",
+            "price": 89.99,
+            "image":"https://via.placeholder.com/250x280?text=Bracelet"
+        },
+        {
+            "name" : "Portable Bluetooth Speaker",
+            "description" : "Compact Bluetooth speaker with powerful sound and built-in microphone for hands-free calls.",
+            "price": 59.99,
+            "image":"https://via.placeholder.com/250x280?text=Speaker"
+        },
+        {
+            "name" : "Professional Chef's Knife",
+            "description" : "High-quality chef's knife made from Damascus steel. Perfect for slicing and dicing in the kitchen.",
+            "price":149.99,
+            "image":"https://via.placeholder.com/250x280?text=Chef's Knife"
+        }
+    ]
