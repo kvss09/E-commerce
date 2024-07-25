@@ -11,24 +11,24 @@
 <body>
    <div class = "container">
         <h1 class ="mb-4 text-center">E-Commerce Products Page</h1>
-        <div class = "d-flex mb-4">
+        <div class = "d-flex align-items-center mb-4">
 
-            <input type="text" id = "search" style = "flex : 1 1 68%;" aria-label="First name" class="form-control" placeholder="search for products">
-
-            <select id = "price-range" class = "form-control " style ="flex : 0 0 28%;">
-                <option value="">Select Price Range</option>
-                <option value="0-50">Under $50</option>
-                <option value="51-100">$51-$100</option>
-                <option value="101-200">$101-$200</option>
-                <option value="201-300">$201-$300</option>
-                <option value="301-400">$301-$400</option>
-                <option value="401-500">$401-$500</option>
-                <option value="500-1000">$500-$1000</option>
-            </select>
-
+            <input type="text" id = "search" style = "flex : 1 1 60%;"  class="form-control mr-4" placeholder="search for products....">
+            <div class="select-wrapper" style="flex: 0 0 25%;">
+                <select id = "price-range" class = "form-control" >
+                    <option value="">Select Price Range</option>
+                    <option value="0-50">Under $50</option>
+                    <option value="51-100">$51-$100</option>
+                    <option value="101-200">$101-$200</option>
+                    <option value="201-300">$201-$300</option>
+                    <option value="301-400">$301-$400</option>
+                    <option value="401-500">$401-$500</option>
+                    <option value="500-1000">$500-$1000</option>
+                </select>
+            </div>
         </div>
         <div id = "product-list" class = "row">
-        
+            
         </div>
    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

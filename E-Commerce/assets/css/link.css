@@ -8,7 +8,7 @@ body {
 .nav-bar {
   margin: 0px;
   padding: 18px;
-  height: 60px;
+  height: 28px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -228,17 +228,20 @@ body {
 .Comparison-table {
   width: 100%;
   border: 2px solid #ff6347;
+  border-collapse: separate;
 }
 .Comparison-table tr,
 th {
   background-color: #ff6347;
+  border-collapse: collapse;
   color: black;
   padding: 0.8em;
   width: auto;
 }
 .Comparison-table tr,
 td {
-  background-color: rgb(244, 238, 238);
+  background-color: whitesmoke;
+  border-collapse: collapse;
   padding: 0.5em;
 }
 footer {

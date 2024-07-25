@@ -1,126 +1,106 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>E-Commerce Store</title>
-    <link rel="stylesheet" href="assets/css/link.css">
-</head>
-<!--https://fakestoreapi.com/products--> <!--link for the products-->
-<body>
-    <header>
-        <nav class = "nav-bar">
-            <div class = "logo" >
-                <img src = "https://via.placeholder.com/150x50?text=ShopLogo" alt = "shopping cart logo">
+    <head>
+        <title>E-Commerce Store</title>
+        <link rel="stylesheet" href="assets/css/link.css">
+    </head>
+    <body>
+        <header>
+            <nav class = "nav-bar">
+                <div class = "logo" >
+                    <img src = "https://via.placeholder.com/150x50?text=ShopLogo" alt = "shopping cart logo">
+                </div>
+                <ul class = "nav-list">
+                    <li><a href = "#">Home</a></li>
+                    <li><a href = "products.html" target ="_blank">Shop</a></li>
+                    <li><a href = "cart.html" target="_blank">Cart</a></li>
+                    <li><a href = "#">Contact</a></li>
+                    <li><a href = "/SignUp2.html" target="_blank">Login</a></li>
+                </ul>            
+            </nav>
+        </header>
+        <section name = "cta-btn" class = "hero container">
+            <h1>Welcome to our Online Store</h1>
+            <h3>Discover the best product at unbeatble profits</h3>
+            <button class = "shop" >
+                <a href ="products.html" target="_blank">Shop Now</a>
+            </button>
+            <p class ="offer-text">Special offer!Get 20% discount on all electronics</p>
+        </section>
+        <section class= "categories">
+            <h2>Shop by Category</h2>
+            <div class = "cd-main container">
+                <div class = "card">
+                    <img src="assets/images/images.jpeg" alt = "Electronics">
+                    <h3>Electronics</h3>
+                </div>
+                <div class = "card">
+                    <img src="assets/images/fashion.jpg" alt = "Fashion">
+                    <h3>Fashion</h3>
+                </div>
+                <div class = "card">
+                    <img src="assets/images/homedecor.jpeg" alt = "Home Decor">
+                    <h3>Home Decor</h3>
+                </div>
+                <div class = "card">
+                    <img src="assets/images/books.jpeg" alt = "Books">
+                    <h3>Books</h3>
+                </div>
             </div>
-            <ul class = "nav-list">
-                <li><a href = "#">Home</a></li>
-                <li><a href = "products.html" target ="_blank">Shop</a></li>
-                <li><a href = "cart.html" target="_blank">Cart</a></li>
-                <li><a href = "#">Contact</a></li>
-                <li><a href = "/SignUp2.html" target="_blank">Login</a></li>
-            </ul>            
-        </nav>
-    </header>
-    <section name = "cta-btn" class = "hero container">
-        <h1>Welcome to our Online Store</h1>
-        <h3>Discover the best product at unbeatble profits</h3>
-        <button class = "shop" >
-            <a href ="products.html" target="_blank">Shop Now</a>
-        </button>
-        <p class ="offer-text">Special offer!Get 20% discount on all electronics</p>
-    </section>
-    <section class= "categories">
-        <h2>Shop by Category</h2>
-        <div class = "cd-main container">
-            <div class = "card">
-                <img src="assets/images/images.jpeg" alt = "Electronics">
-                <h3>Electronics</h3>
-            </div>
-            <div class = "card">
-                <img src="assets/images/fashion.jpg" alt = "Fashion">
-                <h3>Fashion</h3>
-            </div>
-            <div class = "card">
-                <img src="assets/images/homedecor.jpeg" alt = "Home Decor">
-                <h3>Home Decor</h3>
-            </div>
-            <div class = "card">
-                <img src="assets/images/books.jpeg" alt = "Books">
-                <h3>Books</h3>
-            </div>
-        </div>
-    </section>
-    <section class = "featured-products">
-        <div class = "pro">
-            <h2 class = "category-title">Featured Products</h2>
-            <div class = "cd-main " id = "cardMain">
+        </section>
+        <section class = "featured-products">
+            <div class = "pro">
+                <h2 class = "category-title">Featured Products</h2>
+                <div class = "cd-main " id = "cardMain">
 
+                </div>
             </div>
-        </div>
-    </section>
-    <section class ="featured-product">
-        <h2 >Product Features Comparison</h2>
-        <div class = "products">
-        <table class = "Comparison-table" >
-                <thead>
-                    <tr>
-                        <th rowspan="2">Product</th>
-                        <th rowspan="2">Price</th>
-                        <th rowspan="2">Features</th>
-                        <th colspan="2">Details</th>
-                    </tr>
-                    <tr>
-                        <th>Size</th>
-                        <th>Weight</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Product1</td>
-                        <td>$39.99</td>
-                        <td>lorem Ipsum</td>
-                        <td>Large</td>
-                        <td>1.5kg</td>
-                    </tr>
-                    <tr>
-                        <td>Product2</td>
-                        <td>$49.99</td>
-                        <td>Ipsum dollar</td>
-                        <td>Medium</td>
-                        <td>1.2kg</td>
-                    </tr>
-                    <tr>
-                        <td>Product3</td>
-                        <td>$59.99</td>
-                        <td>lorem Ipsum dollar</td>
-                        <td>Small</td>
-                        <td>0.8kg</td>
-                    </tr>
-                </tbody>
-        </table>
-        </div>
-    </section>
-    <section class = "testimonials">
-        <div class = "test">
-            <h2 >Testimonials</h2>
-            <div class = "test-card">
-            <div class = "testimonial">
-                <p>Amazing products! Fast shopping and great customer service</p> <h4>- KVSS</h4>
+        </section>
+        <section class ="featured-product">
+            <h2 >Product Features Comparison</h2>
+            <div class = "products">
+                <table class="Comparison-table" id="comparison-table">
+                    <thead>
+                        <tr>
+                            <th rowspan="2">Product</th>
+                            <th rowspan="2">Price</th>
+                            <th rowspan="2">Features</th>
+                            <th colspan="2">Details</th>
+                        </tr>
+                        <tr>
+                            <th>Size</th>
+                            <th>Weight</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Table data will be populated here -->
+                    </tbody>
+                </table>
             </div>
-            <div class = "testimonial">
-                <p>I Love Shopping. The prices are unbeatble</p> <h4>- DS</h4>
+        
+        </section>
+        <section class = "testimonials">
+            <div class = "test">
+                <h2 >Testimonials</h2>
+                <div class = "test-card">
+                <div class = "testimonial">
+                    <p>Amazing products! Fast shopping and great customer service</p> <h4>- KVSS</h4>
+                </div>
+                <div class = "testimonial">
+                    <p>I Love Shopping. The prices are unbeatble</p> <h4>- DS</h4>
+                </div>
+                <div class = "testimonial">
+                    <p>Fantastic quality. Will definetly try again</p> <h4>- TCSS</h4>
+                </div>
+                <div class = "testimonial">
+                    <p>Great varieties and easy to shop </p><h4>- KD</h4>
+                </div>
             </div>
-            <div class = "testimonial">
-                <p>Fantastic quality. Will definetly try again</p> <h4>- TCSS</h4>
             </div>
-            <div class = "testimonial">
-                <p>Great varieties and easy to shop </p><h4>- KD</h4>
-            </div>
-        </div>
-        </div>
-    </section>
-    <footer>
-        &copy;2024 Your E-Commerce store, All rights reserved.
-    </footer>
-    <script src = "assets/Js/link.js"></script>
-</body>
+        </section>
+        <footer>
+            &copy;2024 Your E-Commerce store, All rights reserved.
+        </footer>
+        <script src = "assets/Js/link.js"></script>
+    </body>
 </html>
